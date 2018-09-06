@@ -1,5 +1,5 @@
 .calc-btn {
-    background-color: tan;
+    background-color: silver;
     color: black;
     width: 25px;
     height: 45px;
@@ -7,13 +7,15 @@
     text-align: center;
     cursor: pointer;
     font-size: 32px;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 .calc-btn:hover {
     background-color: orange;
 }
 .row {
     display: table;
-    width: 170px; /*Optional*/
+    width: 200px; /*Optional*/
     table-layout: fixed; /*Optional*/
 }
 .column {
@@ -35,4 +37,22 @@
     font-size: 32px;
     overflow: hidden;
     white-space: nowrap;
+}
+.calc-btn-operator {
+    background-color: orange;
+    color: white;
+}
+#calc-display-val {
+    background-color: #383838;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 5px;
+}
+#calc-parent {
+    margin-left: calc(50% - 100px);
+}
+h1 {
+    text-align: center;
+    margin-top: 200px;
 }
